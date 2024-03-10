@@ -2,24 +2,42 @@ import React, { Children } from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar font-serif font-thin">
       <a
         className="btn btn-ghost text-xl text-primary"
-        href="http://localhost:3001/"
+        href="http://localhost:3000/"
       >
         Home
       </a>
       <a
         className="btn btn-ghost text-xl text-primary"
-        href="http://localhost:3001/aboutMe"
+        href="http://localhost:3000/aboutMe"
       >
         About Me
       </a>
       <a
         className="btn btn-ghost text-xl text-primary"
-        href="http://localhost:3001/contactInfo"
+        href="http://localhost:3000/contactInfo"
       >
         Contact Info
+      </a>
+      <a
+        className="btn btn-ghost text-xl text-primary"
+        href="http://localhost:3000/portfolio"
+      >
+        Project Portfolio
+      </a>
+      <a
+        className="btn btn-ghost text-xl text-primary"
+        href="http://localhost:3000/Resume"
+      >
+        Resume
+      </a>
+      <a
+        className="btn btn-ghost text-xl text-primary"
+        href="http://localhost:3000/patents"
+      >
+        Patents
       </a>
     </div>
   );

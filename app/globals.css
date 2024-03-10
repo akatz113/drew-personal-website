@@ -22,4 +22,13 @@ body {
   }
 }
 
+textarea#editor {
+  border:none;
+  width:80%;
+  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
 
