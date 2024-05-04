@@ -18,11 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="coffee">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
