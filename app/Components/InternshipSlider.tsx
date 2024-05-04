@@ -4,7 +4,7 @@ import ResumeCard from "./ResumeCard";
 
 const InternshipSlider = () => {
   return (
-    <div>
+    <div className="w-[500px]">
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
           <ResumeCard
@@ -15,8 +15,24 @@ const InternshipSlider = () => {
             {Exp[1].title}
           </ResumeCard>
         </div>
-        <div id="item2" className="carousel-item w-full"></div>
-        <div id="item3" className="carousel-item w-full"></div>
+        <div id="item2" className="carousel-item w-full">
+          <ResumeCard
+            date={Exp[2].date}
+            description={Exp[2].description}
+            details={Exp[2].details}
+          >
+            {Exp[2].title}
+          </ResumeCard>
+        </div>
+        <div id="item3" className="carousel-item w-full">
+          <ResumeCard
+            date={Exp[3].date}
+            description={Exp[3].description}
+            details={Exp[3].details}
+          >
+            {Exp[3].title}
+          </ResumeCard>
+        </div>
       </div>
       <div className="flex justify-center w-full py-2 gap-2">
         <a href="#item1" className="btn btn-xs">

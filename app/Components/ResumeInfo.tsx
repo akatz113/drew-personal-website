@@ -2,7 +2,7 @@ export const edu = [
   {
     title: "University of Louisville",
     date: "2024-Present",
-    details: "Mechanical Engineering, M.S.",
+    details: "Mechanical Engineering, M.S. (In Progress)",
     description: "Edison Engineering Program",
   },
   {

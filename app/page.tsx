@@ -6,6 +6,7 @@ import { Card, Grid } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import Title from "./Components/Title";
 import ResumeOverview from "./Components/ResumeOverview";
+import InternshipSlider from "./Components/InternshipSlider";
 
 export default function Home() {
   return (
