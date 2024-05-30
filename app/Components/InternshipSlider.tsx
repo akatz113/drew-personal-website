@@ -34,14 +34,14 @@ const InternshipSlider = () => {
           </ResumeCard>
         </div>
       </div>
-      <div className="flex justify-center w-full py-2 gap-2">
-        <a href="#item1" className="btn btn-xs">
+      <div className="flex justify-center w-full py-2 gap-2 ">
+        <a href="#item1" className="btn btn-xs text-secondary">
           1
         </a>
-        <a href="#item2" className="btn btn-xs">
+        <a href="#item2" className="btn btn-xs text-secondary">
           2
         </a>
-        <a href="#item3" className="btn btn-xs">
+        <a href="#item3" className="btn btn-xs text-secondary">
           3
         </a>
       </div>
