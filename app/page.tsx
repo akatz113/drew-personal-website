@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       <Title />
+      <IntroGrid />
       <ResumeOverview />
     </>
   );

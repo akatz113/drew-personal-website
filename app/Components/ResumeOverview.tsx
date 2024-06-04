@@ -5,6 +5,7 @@ import ResumeCard from "./ResumeCard";
 import { Exp, edu } from "./ResumeInfo";
 import InternshipSlider from "./InternshipSlider";
 import ResumeDownload from "./ResumeDownload";
+import TextArea from "./TextArea";
 
 const ResumeOverview = () => {
   return (
