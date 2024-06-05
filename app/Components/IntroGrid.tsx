@@ -6,8 +6,8 @@ const IntroGrid = () => {
     <>
       <div className=" bg-primary grid grid-cols-8 mb-[100px] place-items-center p-12">
         <div className="col-span-1" />
-        <div className="col-span-3 text-justify ">
-          <h1 className="text-7xl text-primary-content py-4">Hi, I'm Drew</h1>
+        <div className="col-span-3 text-justify">
+          <h1 className="text-7xl text-primary-content py-6">Hi, I'm Drew.</h1>
           <h2 className="text-xl font-light text-primary-content">
             Welcome to my website, I'm a mechanical engineer at{" "}
             <a
