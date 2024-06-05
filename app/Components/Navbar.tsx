@@ -2,18 +2,19 @@
 
 import React, { Children, useState, useEffect } from "react";
 import { Home, GitHub, LinkedIn } from "@mui/icons-material";
+import { preconnect } from "react-dom";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
 
-    if (currentScrollPos > 0) {
-      setVisible(true);
-    } else {
+    if (currentScrollPos > prevScrollPos) {
       setVisible(false);
+    } else {
+      setVisible(true);
     }
 
     setPrevScrollPos(currentScrollPos);
