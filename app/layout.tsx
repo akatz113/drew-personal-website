@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="coffee">
+    <html lang="en" data-theme="coffee" style={{ scrollBehavior: "smooth" }}>
       <head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </head>
