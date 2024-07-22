@@ -11,7 +11,7 @@ interface Props {
 const ResumeCard = ({ children, date, description, details }: Props) => {
   return (
     <div className="w-[500px]">
-      <Card className="bg-secondary shadow-2xl">
+      <Card className="bg-secondary shadow-2xl rounded-xl">
         <CardContent>
           <div className="flex justify-between mr-4 text-lg">
             <p className="text-right text-2xl ">{children}</p>

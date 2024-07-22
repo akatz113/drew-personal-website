@@ -12,7 +12,7 @@ const ResumeOverview = () => {
       <h2 className="text-center text-7xl my-4 text-secondary">About Me</h2>
       <div className="p-4 mx-32" />
       <div className="grid grid-cols-11 text-left gap-4 place-items-center">
-        <div className="col-span-5 grid gap-4 grid-cols-1 place-items-center">
+        <div className="col-span-5 grid gap-6 grid-cols-1 place-items-center">
           <div>
             <h1 className="text-3xl text-secondary">Education</h1>
           </div>
